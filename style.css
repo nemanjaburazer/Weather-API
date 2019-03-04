@@ -16,10 +16,13 @@ body {
 	font-family: 'Roboto Slab', serif;
 	padding-top: 20px; 
 }
-
+.container2{
+	text-align: center;
+}
 #naredniPeriod {
 	margin: 0 auto;
 	text-align: center;
+
 }
 
 .kartica {
@@ -53,7 +56,7 @@ body {
 	top: 0;
 	right: 0;
 	border-bottom-right-radius: 25px;
-border-top-right-radius: 25px;
+	border-top-right-radius: 25px;
 }
 
 .temperatura {
@@ -132,6 +135,9 @@ border-top-right-radius: 25px;
 	.kartica {
 		width: 300px;
 	}
+	#naredniPeriod{
+		margin-bottom: 20px;
+	}
 	.lokacija {
 		font-size: 20px;
 		text-align: left;
@@ -148,4 +154,19 @@ font-size: 15px;
 text-align: center;
 	}
 }
+
+@media screen and (min-width: 380px) {
+	#naredniPeriod{
+		margin-bottom: 20px;
+	}
+}
+
+/* @media screen and (min-width: 1366px) {
+	#naredniPeriod{ 
+	float: left;
+	margin-left: 35px;
+	margin-right: 10px;
+	}
+
+} */
 
